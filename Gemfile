@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.2'
 
+gem 'devise'
+# gem 'milia' ,'>= 1.3.1'   milia (>= 1.3.1) was resolved to 1.3.1, which depends on rails (~> 5.0)
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 # Use postgresql as the database for Active Record
